@@ -108,18 +108,18 @@ public class TestListExamples {
     @Test
     public void testMergeObjects() {
       ArrayList<String> input1 = new ArrayList<>();
-      var item1 = new String("a");
-      var item2 = new String("b");
+      String item1 = new String("a");
+      String item2 = new String("b");
       input1.add(item1);
       input1.add(item2);
 
       ArrayList<String> input2 = new ArrayList<>();
-      var item3 = new String("c");
-      var item4 = new String("d");
+      String item3 = new String("c");
+      String item4 = new String("d");
       input2.add(item3);
       input2.add(item4);
 
-      var output = ListExamples.merge(input1, input2);
+      List<String> output = ListExamples.merge(input1, input2);
       assertSame(item1, output.get(0));
       assertSame(item2, output.get(1));
       assertSame(item3, output.get(2));
