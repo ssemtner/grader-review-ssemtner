@@ -1,0 +1,95 @@
+TestListExamples.java:1: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+TestListExamples.java:4: error: package org.junit.rules does not exist
+import org.junit.rules.Timeout;
+                      ^
+TestListExamples.java:3: error: package org.junit does not exist
+import org.junit.*;
+^
+TestListExamples.java:31: error: cannot find symbol
+    public Timeout timeout =
+           ^
+  symbol:   class Timeout
+  location: class TestListExamples
+TestListExamples.java:30: error: cannot find symbol
+    @Rule
+     ^
+  symbol:   class Rule
+  location: class TestListExamples
+TestListExamples.java:34: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:43: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:68: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:82: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:108: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:32: error: cannot find symbol
+            Timeout.seconds(1); // 1 second max per method tested
+            ^
+  symbol:   variable Timeout
+  location: class TestListExamples
+TestListExamples.java:40: error: cannot find symbol
+        assertEquals(expected, merged);
+        ^
+  symbol:   method assertEquals(List<String>,List<String>)
+  location: class TestListExamples
+TestListExamples.java:52: error: cannot find symbol
+        assertArrayEquals(
+        ^
+  symbol:   method assertArrayEquals(String[],Object[])
+  location: class TestListExamples
+TestListExamples.java:63: error: cannot find symbol
+        assertArrayEquals(
+        ^
+  symbol:   method assertArrayEquals(String[],Object[])
+  location: class TestListExamples
+TestListExamples.java:77: error: cannot find symbol
+        assertArrayEquals(
+        ^
+  symbol:   method assertArrayEquals(String[],Object[])
+  location: class TestListExamples
+TestListExamples.java:95: error: cannot find symbol
+        assertArrayEquals(
+        ^
+  symbol:   method assertArrayEquals(String[],Object[])
+  location: class TestListExamples
+TestListExamples.java:123: error: cannot find symbol
+      assertSame(item1, output.get(0));
+      ^
+  symbol:   method assertSame(String,String)
+  location: class TestListExamples
+TestListExamples.java:124: error: cannot find symbol
+      assertSame(item2, output.get(1));
+      ^
+  symbol:   method assertSame(String,String)
+  location: class TestListExamples
+TestListExamples.java:125: error: cannot find symbol
+      assertSame(item3, output.get(2));
+      ^
+  symbol:   method assertSame(String,String)
+  location: class TestListExamples
+TestListExamples.java:126: error: cannot find symbol
+      assertSame(item4, output.get(3));
+      ^
+  symbol:   method assertSame(String,String)
+  location: class TestListExamples
+20 errors

@@ -1,3 +1,4 @@
+# would not work on MINGW
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
@@ -65,6 +66,7 @@ fi
 TESTS=$(echo $LAST_LINE | cut -d' ' -f 3 | cut -d',' -f 1)
 FAILED=$(echo $LAST_LINE | cut -d' ' -f 5)
 PASSED=$((TESTS - FAILED))
+# would not work on MINGW
 SCORE=$(echo "scale=1 ; $((PASSED * 100)) / $TESTS" | bc)
 
 # print out failed tests
